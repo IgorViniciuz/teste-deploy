@@ -9,6 +9,6 @@ app.get('/', async (req, res) => {
     return res.json('Api funcionando')
 })
 
-const port = process.env.port || 3000
+const port = 3000
 
 app.listen(port)
